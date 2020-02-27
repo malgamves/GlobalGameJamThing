@@ -16,7 +16,6 @@
 
 <script>
     import { mapMutations } from "vuex";
-    import anime from 'animejs/lib/anime.es.js';
 
     var object = [
             {
@@ -243,26 +242,7 @@
                 object = this.cardInfo.splice(0,4);
                 // object.sort(() => Math.random() - 0.5);
             },
-            animateCards(){
-                anime({
-                    targets: '.cards',
-                    scale:{
-                        value: [1,0.9],
-                        duration: 1200,
-                        easing: 'linear'
-                    },
-                    loop: true
-                });
-            }
-        },
-
-        mounted() {
-            this.animateCards();
-            this.endGame();
-        },
-        updated(){
-            this.animateCards();
-        }
+    }
     }
 </script>
 
