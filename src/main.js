@@ -4,6 +4,7 @@ import '@/assets/styles/index.css';
 import store from './store'
 
 Vue.config.productionTip = false
+Vue.config.performance = true;
 
 new Vue({
   store,
