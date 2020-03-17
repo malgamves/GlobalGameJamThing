@@ -7,6 +7,8 @@ We thought about what repair meant to us, looking at the state of the world toda
 
 [Game Jam Link](https://globalgamejam.org/2020/games/cashitos-3)
 
+### [Play Now](https://zerodaysleft.netlify.com)
+
 ### Team
 
 [Daniel Madalitso Phiri](https://twitter.com/malgamves)
